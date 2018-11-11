@@ -1,0 +1,154 @@
+:root{
+	font-size:1em;
+}
+body{
+font-family:Arial,Times,San-serif;
+background-color:#C3DDDD;
+}
+header{
+	background-color:#094462;
+	color:white;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0.6em;
+	overflow:hidden;
+}
+section{
+	background-color:white;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	border-width:0.3em;
+	border-style:solid;
+	border-color:#094462;
+	padding:0.3em;
+}
+footer{
+	background-color:#094462;
+	color:white;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0.6em;
+	text-align:center;
+}
+article h1{
+	line-height:5px;
+	font-size:1.5em;
+}
+hgroup h1{
+	font-size:2em;
+	line-height:0.8em;
+}
+hgroup h2{
+	font-size:1.2em;
+}
+hgroup{
+	width:70%;
+	float:left;
+}
+p{
+	text-align:justify;
+}
+nav{
+	width:60%;
+	float:right;
+	
+}
+ul {
+    list-style-type: none;
+   
+}
+li {
+    float: left;
+}
+
+li a {
+	background-color:#C3DDDD;
+    display: block;
+    color: #094462;
+    text-align: center;
+    padding: 0.3em;
+    text-decoration: none;
+	border-style:groove;
+	border-color:grey;
+}
+li a:hover {
+    background-color: black;
+	color:white;
+}
+article img{
+	
+	margin:10px;
+	border-width:0.1em;
+	border-style:solid;
+	border-color:#084462;
+}
+.otherPage {
+	text-align:center;
+}
+.otherPage a{
+	background-color:#C3DDDD;
+	color:#094462;
+	text-decoration:none;
+	padding:4px;
+	border-style:groove;
+	border-color:grey;
+}
+.otherPage a:hover{
+	 background-color: black;
+	color:white;
+}
+.container{
+	display:flex;
+	flex-direction:column;
+}
+
+
+@media screen and (min-width: 768px){
+	img{
+		width:18vw;
+	height:34vh;
+	float:right;
+	}
+	
+	
+}
+@media screen and (min-width: 480px) and (max-width: 767px){
+	 img{
+		width:40vw;
+	height:35vh;
+	flex-direction:column;
+	
+	}
+	.container{
+		font-size:1.2em;
+	}
+}
+@media screen and (max-width: 480px){
+	img{
+		width:50vw;
+	height:35vh;
+	flex-direction:column;
+	
+	}
+	.container{
+		
+		font-size:1.2em;
+	}
+	
+}
+
+hgroup{
+	display:flex;
+	flex-direction:column;
+}
+section{
+	display:flex;
+	flex-direction:column;
+}
+footer{
+	display:flex;
+	flex-direction:column;
+}
